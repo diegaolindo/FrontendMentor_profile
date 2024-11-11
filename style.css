@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+main .perfil {
+    background-color: rgb(44, 42, 42);
+    width: 300px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+
+main .perfil h1 {
+    margin-bottom: 3px;
+}
+
+main .perfil h2 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: rgb(80, 202, 80);
+}
+
+main .perfil #foto {
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+main .perfil p {
+    margin-bottom: 10px;
+}
+
+main .perfil li {
+    list-style: none;    
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 0.9em;
+}
+
+main .perfil a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(80, 79, 79);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    border-radius: 10px;
+}
+
+main .perfil a:hover {
+    background-color: rgb(80, 202, 80);
+    color: black;
+}
